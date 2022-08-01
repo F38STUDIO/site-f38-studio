@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CatalogPage from './pages/CatalogPage'
+import Cart from './pages/Cart'
+import CheckOut from './pages/CheckOut'
+import ProductDetailPage from './pages/ProductDetailPage'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
